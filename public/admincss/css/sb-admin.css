@@ -1,0 +1,364 @@
+/*!
+ * Start Bootstrap - SB Admin Bootstrap Admin Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+body {
+    margin-top: 100px;
+    background-color: #222;
+}
+
+@media(min-width:768px) {
+    body {
+        margin-top: 50px;
+    }
+}
+
+#wrapper {
+    padding-left: 0;
+}
+
+#page-wrapper {
+    width: 100%;
+    padding: 0;
+    background-color: #fff;
+}
+
+.huge {
+    font-size: 50px;
+    line-height: normal;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 225px;
+    }
+
+    #page-wrapper {
+        padding: 10px;
+    }
+}
+
+/* Top Navigation */
+
+.top-nav {
+    padding: 0 15px;
+}
+
+.top-nav>li {
+    display: inline-block;
+    float: left;
+}
+
+.top-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 20px;
+    color: #999;
+}
+
+.top-nav>li>a:hover,
+.top-nav>li>a:focus,
+.top-nav>.open>a,
+.top-nav>.open>a:hover,
+.top-nav>.open>a:focus {
+    color: #fff;
+    background-color: #000;
+}
+
+.top-nav>.open>.dropdown-menu {
+    float: left;
+    position: absolute;
+    margin-top: 0;
+    border: 1px solid rgba(0,0,0,.15);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.top-nav>.open>.dropdown-menu>li>a {
+    white-space: normal;
+}
+
+ul.message-dropdown {
+    padding: 0;
+    max-height: 250px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+li.message-preview {
+    width: 275px;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+}
+
+li.message-preview>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+li.message-footer {
+    margin: 5px 0;
+}
+
+ul.alert-dropdown {
+    width: 200px;
+}
+
+/* Side Navigation */
+
+@media(min-width:768px) {
+    .side-nav {
+        position: fixed;
+        top: 51px;
+        left: 225px;
+        width: 225px;
+        margin-left: -225px;
+        border: none;
+        border-radius: 0;
+        overflow-y: auto;
+        background-color: #222;
+    }
+
+    .side-nav>li>a {
+        width: 225px;
+    }
+
+    .side-nav li a:hover,
+    .side-nav li a:focus {
+        outline: none;
+        background-color: #000 !important;
+    }
+}
+
+.side-nav>li>ul {
+    padding: 0;
+}
+
+.side-nav>li>ul>li>a {
+    display: block;
+    padding: 10px 15px 10px 38px;
+    text-decoration: none;
+    color: #999;
+}
+
+.side-nav>li>ul>li>a:hover {
+    color: #fff;
+}
+
+/* Flot Chart Containers */
+
+.flot-chart {
+    display: block;
+    height: 400px;
+}
+
+.flot-chart-content {
+    width: 100%;
+    height: 100%;
+}
+
+/* Custom Colored Panels */
+
+.huge {
+    font-size: 40px;
+}
+
+.panel-green {
+    border-color: #5cb85c;
+}
+
+.panel-green .panel-heading {
+    border-color: #5cb85c;
+    color: #fff;
+    background-color: #5cb85c;
+}
+
+.panel-green a {
+    color: #5cb85c;
+}
+
+.panel-green a:hover {
+    color: #3d8b3d;
+}
+
+.panel-red {
+    border-color: #d9534f;
+}
+
+.panel-red .panel-heading {
+    border-color: #d9534f;
+    color: #fff;
+    background-color: #d9534f;
+}
+
+.panel-red a {
+    color: #d9534f;
+}
+
+.panel-red a:hover {
+    color: #b52b27;
+}
+
+.panel-yellow {
+    border-color: #f0ad4e;
+}
+
+.panel-yellow .panel-heading {
+    border-color: #f0ad4e;
+    color: #fff;
+    background-color: #f0ad4e;
+}
+
+.panel-yellow a {
+    color: #f0ad4e;
+}
+
+.panel-yellow a:hover {
+    color: #df8a13;
+}
+
+#bulkOptionsContainer
+{
+    padding: 0;
+}
+
+/* ========================================
+products styling from home templeate start.
+===========================================*/
+
+.shop-products-area .pagination {
+    position: relative;
+    z-index: 1;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end; }
+  
+  
+    .shop-products-area .pagination .page-item .page-link {
+      color: #707070;
+      width: 46px;
+      height: 46px;
+      border-radius: 0;
+      text-align: center;
+      border: 1px solid #ebebeb;
+      font-size: 18px;
+      line-height: 44px;
+      padding: 0;
+      margin: 0 10px;
+      background-color: #f5f5f5; }
+  
+      .shop-products-area .pagination .page-item .page-link:hover, .shop-products-area .pagination .page-item .page-link:focus {
+        border-color: #70c745;
+        background-color: #70c745;
+        color: #ffffff; }
+        /* :: 7.0 New Arrivals Products Area */
+.single-product-area {
+    position: relative;
+    z-index: 1;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms; }
+    .single-product-area .product-img {
+      position: relative;
+      z-index: 1;
+      -webkit-transition-duration: 500ms;
+      transition-duration: 500ms; }
+      .single-product-area .product-img a {
+        display: block; }
+  
+      .single-product-area .product-img img {
+        position: relative;
+        z-index: 1;
+        width: 100%; }
+  
+      .single-product-area .product-img .product-tag a {
+        background-color: #429edf;
+        border-radius: 2px;
+        display: inline-block;
+        height: 20px;
+        padding: 0 10px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 12px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        z-index: 10; }
+  
+      .single-product-area .product-img .product-tag.sale-tag a {
+        background-color: #e61d47; }
+      .single-product-area .product-img .product-meta {
+        position: absolute;
+        bottom: 30px;
+        left: 15px;
+        right: 15px;
+        z-index: 100;
+        visibility: hidden;
+        opacity: 0;
+        -webkit-transition-duration: 500ms;
+        transition-duration: 500ms; }
+  
+        .single-product-area .product-img .product-meta a, .single-product-area .product-img .product-meta form button {
+          font-size: 16px;
+          color: #ffffff;
+          font-weight: 600;
+          background-color: #303030;
+          -webkit-box-flex: 0;
+          -ms-flex: 0 0 50px;
+          flex: 0 0 50px;
+          width: 100%;
+          height: 50px;
+          line-height: 50px;
+          text-transform: uppercase;
+          outline: none;
+          border: none;
+          text-align: center; }
+  
+          .single-product-area .product-img .product-meta a:hover, .single-product-area .product-img .product-meta a:focus {
+            background-color: #70c745; }
+
+            .single-product-area .product-img .product-meta form button:hover{ background-color: #d9534f; text-decoration: underline;}
+  
+          @media only screen and (min-width: 992px) and (max-width: 1199px) {
+            .single-product-area .product-img .product-meta a {
+              font-size: 11px; } }
+  
+          @media only screen and (min-width: 768px) and (max-width: 991px) {
+            .single-product-area .product-img .product-meta a {
+              font-size: 11px; } }
+  
+          @media only screen and (max-width: 767px) {
+            .single-product-area .product-img .product-meta a {
+              font-size: 14px; } }
+  
+        .single-product-area .product-img .product-meta .add-to-cart-btn,.single-product-area .product-img .product-meta form {
+          flex-basis: 50%; }
+  
+    .single-product-area .product-info a p {
+      margin-bottom: 0;
+      -webkit-transition-duration: 300ms;
+      transition-duration: 300ms; }
+  
+      .single-product-area .product-info a p:hover, .single-product-area .product-info a p:focus {
+        color: #70c745; }
+    .single-product-area .product-info h6 {
+      margin-bottom: 0;
+      font-size: 18px; }
+  
+    .single-product-area:hover .product-img {
+      box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.15); }
+      .single-product-area:hover .product-img .product-meta {
+        visibility: visible;
+        opacity: 1; }
+
+        .d-flex { display: flex;}
+/* ========================================
+products styling from home templeate end.
+===========================================*/
